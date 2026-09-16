@@ -74,7 +74,7 @@ CREATE TABLE IF NOT EXISTS raaw.orders (
   payment_method    VARCHAR(32),
   order_status      VARCHAR(32),
   customer_rating   NUMERIC(3,1),
-  delivery_time_min INTEGER
+  delivery_time_min NUMERIC(6,2)
 );
 
 CREATE TABLE IF NOT EXISTS raaw.order_items (
